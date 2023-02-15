@@ -60,7 +60,7 @@ figure_list:
     sequences:
       - id: "figures/fountain/"
         behavior: [ "continuous", "sequence" ]
-        regex: /^fountain02_\d{4}$/
+        regex: /^fountain02_\d{5}$/
     annotations:
       - input: checkbox
         items:
