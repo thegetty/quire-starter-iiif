@@ -52,6 +52,7 @@ figure_list:
           - continuous
           - sequence
         start: 171.jpg
+        viewing_direction: "right-to-left"
 
   - id: "rotating-annotation"
     label: "Figure 5"
@@ -61,6 +62,7 @@ figure_list:
       - id: "figures/fountain/"
         behavior: [ "continuous", "sequence" ]
         regex: /^fountain02_\d{5}\.png$/
+        viewing_direction: "right-to-left"
     annotations:
       - input: checkbox
         items:
