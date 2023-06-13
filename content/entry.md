@@ -21,7 +21,7 @@ Show the {% ref fig='rotating' text='rotating image' %}.
 
 Scrolling to this point will show a {% ref fig='rotating' start='037' text='different point on the rotating image' onscroll='true' %} starting at '037'.
 
-Scrolling to this point will show a {% ref fig='rotating' start='013' transition="false" text='different point on the rotating image' onscroll='true' %} starting at '013' with no transition.
+Scrolling to this point will show a {% ref fig='rotating' start='013' transition="0" text='different point on the rotating image' onscroll='true' %} starting at '013' with no transition.
 
 Scrolling to this point will show a {% ref fig='rotating' start='001' text='different point on the rotating image' onscroll='true' %} starting at '001'.
 
