@@ -62,7 +62,7 @@ figure_list:
       - id: "figures/fountain/"
         behavior: [ "continuous", "sequence" ]
         regex: /^fountain02_\d{5}\.png$/
-        transition_speed: 20
+        transition: 20
         viewing_direction: "right-to-left"
     annotations:
       - input: checkbox
