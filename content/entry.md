@@ -25,7 +25,7 @@ Scrolling to this point will show a {% ref fig='rotating' start='013' transition
 
 Scrolling to this point will show a {% ref fig='rotating' start='001' text='different point on the rotating image' onscroll='true' %} starting at '001'.
 
-Scrolling to this point will show the {% ref fig='rotating' start='116' text='rotating image' onscroll='true' %} starting at image '116'.
+Scrolling to this point will show the {% ref fig='rotating' start='115' text='rotating image' onscroll='true' %} starting at image '115'.
 
 Try the {% ref fig='rotating-annotation' text='second rotating image' %}.
 
