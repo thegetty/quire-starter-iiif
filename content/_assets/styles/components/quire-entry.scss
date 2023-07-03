@@ -588,7 +588,7 @@ $image-divider-height: 16px;
       z-index: 10;
       @media screen and (max-width: $desktop) {
         top: calc(#{$navbar-height} + #{$quire-progress-bar-height});
-        height: calc(((100vh - #{$navbar-height} - #{$quire-progress-bar-height}) / 2.1) + $image-divider-height);
+        height: calc(((100vh - #{$navbar-height} - #{$quire-progress-bar-height}) * .45) + $image-divider-height);
         &::after {
           content: '';
           position: absolute;
@@ -650,11 +650,15 @@ $image-divider-height: 16px;
     }
 
     div.quire-entry__content {
+      position: fixed;
+      overflow: scroll;
       width: 100%;
+      height: calc(((100vh - #{$navbar-height} - #{$quire-progress-bar-height}) * .55) - $image-divider-height);
 
       @media screen and (min-width: $desktop) {
+        height: 100vh;
         width: 44%;
-        flex: none;
+        right: 0;
         background: $secondary-background-color;
       }
 
@@ -677,7 +681,7 @@ $image-divider-height: 16px;
     .q-figure-slides__slide-ui, .q-lightbox-ui__navigation, .q-lightbox-ui__counter {
       display: none;
       @media screen and (min-width: $desktop) {
-        display: block;
+        display: flex;
       }
     }
   }
