@@ -714,6 +714,7 @@ $image-divider-height: 16px;
 }
 
 .side-by-side .quire-entry__lightbox {
+  height: calc(100% - #{$image-divider-height});
   @media screen and (min-width: $desktop) {
     position: fixed;
     /* top offsets 50px tall nav bar */
