@@ -13,7 +13,7 @@ Project versions conform to [Semantic Versioning](https://semver.org/)
 * `Fixed`: for any bug fixes
 - `Removed`: for deprecated features removed in this release
 
-## [1.2.0]
+## [1.1.0]
 
 ### Changed
 
