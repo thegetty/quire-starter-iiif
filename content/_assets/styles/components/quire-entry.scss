@@ -677,15 +677,25 @@ $image-divider-height: 16px;
         }
       }
     }
+
     /* Hide lightbox UI on mobile unless in fullscreen */
-    .q-figure-slides__slide-ui, .q-lightbox-ui__navigation, .q-lightbox-ui__counter {
+    .quire-entry__lightbox--fullscreen .q-lightbox-ui__counter {
+      display: block;
+    }
+    .q-lightbox-ui__counter {
+      display: none;
+      @media screen and (min-width: $desktop) {
+        display: block;
+      }
+    }
+    .q-figure-slides__slide-ui, .q-lightbox-ui__navigation {
       display: none;
       @media screen and (min-width: $desktop) {
         display: flex;
       }
     }
     .quire-entry__lightbox--fullscreen {
-      .q-figure-slides__slide-ui, .q-lightbox-ui__navigation, .q-lightbox-ui__counter {
+      .q-figure-slides__slide-ui, .q-lightbox-ui__navigation {
         display: flex;
       }
     }
