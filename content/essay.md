@@ -1,10 +1,8 @@
 ---
-title: IIIF Figures on an Essay Page
-layout: essay
-order: 10
+title: Layered and Rotating IIIF Images
+layout: page
+order: 15
 ---
-
-{% figure "zoom" %}
 
 {% figure "radio-layers" %}
 

@@ -1,8 +1,56 @@
 figure_list:
 
-  - id: "zoom"
+  - id: "zoom-jpg"
     src: figures/irises.jpg
-    label: "Figure 1"
+    label: "Figure 1 (JPG)"
+    caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+    credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+    download: true
+    zoom: true
+  
+  - id: "zoom-jpeg"
+    src: figures/irises.jpeg
+    label: "Figure 1 (JPEG)"
+    caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+    credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+    download: true
+    zoom: true
+  
+  # - id: "zoom-jp2"
+  #   src: figures/irises.jp2
+  #   label: "Figure 1 (JPEG 2000)"
+  #   caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+  #   credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+  #   download: true
+  #   zoom: true
+  
+  - id: "zoom-tif"
+    src: figures/irises.tif
+    label: "Figure 1 (TIF)"
+    caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+    credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+    download: true
+    zoom: true
+  
+  - id: "zoom-tiff"
+    src: figures/irises.tiff
+    label: "Figure 1 (TIFF)"
+    caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+    credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+    download: true
+    zoom: true
+  
+  - id: "zoom-png"
+    src: figures/irises.png
+    label: "Figure 1 (PNG)"
+    caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
+    credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
+    download: true
+    zoom: true
+  
+  - id: "zoom-svg"
+    src: figures/irises.svg
+    label: "Figure 1 (SVG)"
     caption: "*Irises*, 1889, Vincent van Gogh (Dutch, 1853 - 1890). Oil on canvas, 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)."
     credit: The J. Paul Getty Museum, Los Angeles, 90.PA.20
     download: true
