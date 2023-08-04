@@ -56,6 +56,71 @@ figure_list:
     download: true
     zoom: true
 
+  - id: "yawn-200"
+    src: figures/yawn-200.jpg
+    label: "Yawn 200px"
+    zoom: true
+    
+  - id: "yawn-256"
+    src: figures/yawn-256.jpg
+    label: "Yawn 256px"
+    zoom: true
+    
+  - id: "yawn-257"
+    src: figures/yawn-257.jpg
+    label: "Yawn 257px"
+    zoom: true
+    
+  - id: "yawn-400"
+    src: figures/yawn-400.jpg
+    label: "Yawn 400px"
+    zoom: true
+    
+  - id: "yawn-500"
+    src: figures/yawn-500.jpg
+    label: "Yawn 500px"
+    zoom: true
+    
+  - id: "yawn-512"
+    src: figures/yawn-512.jpg
+    label: "Yawn 512px"
+    zoom: true
+    
+  - id: "yawn-513"
+    src: figures/yawn-513.jpg
+    label: "Yawn 513px"
+    zoom: true
+    
+  - id: "yawn-550"
+    src: figures/yawn-550.jpg
+    label: "Yawn 550px"
+    zoom: true
+    
+  - id: "yawn-600"
+    src: figures/yawn-600.jpg
+    label: "Yawn 600px"
+    zoom: true
+    
+  - id: "yawn-800"
+    src: figures/yawn-800.jpg
+    label: "Yawn 800px"
+    zoom: true
+    
+  - id: "yawn-1000"
+    src: figures/yawn-1000.jpg
+    label: "Yawn 1000px"
+    zoom: true
+    
+  - id: "yawn-1024"
+    src: figures/yawn-1024.jpg
+    label: "Yawn 1024px"
+    zoom: true
+    
+  - id: "yawn-1025"
+    src: figures/yawn-1025.jpg
+    label: "Yawn 1025px"
+    zoom: true
+
   - id: "radio-layers"
     label: "Figure 2"
     caption: "Mummy Portrait of a Woman, A.D. 100, attributed to the Isidora Master (Romano-Egyptian, active 100 - 125). Encaustic on linden wood; gilt; linen, 48 × 36 × 12.8 cm (18 7/8 × 14 3/16 × 5 1/16 in.)."
